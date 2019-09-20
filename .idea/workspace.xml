@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eb52082-ef25-41b8-8fa4-e74b57f0ff7f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/AplusB.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/ShortMsg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pintia/SimpleCalculate.py" beforeDir="false" />
-    </list>
+    <list default="true" id="6eb52082-ef25-41b8-8fa4-e74b57f0ff7f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +11,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/aizuoj$SmallLargeOrEqual.coverage" NAME="SmallLargeOrEqual Coverage Results" MODIFIED="1567582573874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
+    <SUITE FILE_PATH="coverage/aizuoj$FindMaxSubArray.coverage" NAME="FindMaxSubArray Coverage Results" MODIFIED="1568965707690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pintia/dsa" />
+    <SUITE FILE_PATH="coverage/aizuoj$MaxSubArraySum.coverage" NAME="MaxSubArraySum Coverage Results" MODIFIED="1568946607832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pintia/dsa" />
     <SUITE FILE_PATH="coverage/aizuoj$Watch.coverage" NAME="Watch Coverage Results" MODIFIED="1567583108298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
     <SUITE FILE_PATH="coverage/aizuoj$MaximumProfit.coverage" NAME="MaximumProfit Coverage Results" MODIFIED="1567526193516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ALDS" />
     <SUITE FILE_PATH="coverage/aizuoj$PrintManyHelloWorld.coverage" NAME="PrintManyHelloWorld Coverage Results" MODIFIED="1568032347539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
@@ -28,6 +25,7 @@
     <SUITE FILE_PATH="coverage/aizuoj$SortingThreeNumbers.coverage" NAME="SortingThreeNumbers Coverage Results" MODIFIED="1568030762866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
     <SUITE FILE_PATH="coverage/aizuoj$Range.coverage" NAME="Range Coverage Results" MODIFIED="1567583129955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
     <SUITE FILE_PATH="coverage/aizuoj$Rectangle.coverage" NAME="Rectangle Coverage Results" MODIFIED="1567581971409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
+    <SUITE FILE_PATH="coverage/aizuoj$MaxSubArraySumOnline.coverage" NAME="MaxSubArraySumOnline Coverage Results" MODIFIED="1568946972408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pintia/dsa" />
     <SUITE FILE_PATH="coverage/aizuoj$SwappingTwoNumbers.coverage" NAME="SwappingTwoNumbers Coverage Results" MODIFIED="1568032969531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ITP1" />
   </component>
   <component name="FileEditorManager">
@@ -44,26 +42,8 @@
       <file leaf-file-name="BubbleSort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ALDS/BubbleSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="9" selection-start-line="24" selection-end-line="28" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectionSort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ALDS/SelectionSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="23" selection-start-line="17" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortingThreeNumbers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ITP1/SortingThreeNumbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="232">
+              <caret line="25" column="40" lean-forward="true" selection-start-line="24" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -86,11 +66,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AplusB.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AplusB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pintia/pythonbasic/AplusB.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSubArraySum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pintia/dsa/MaxSubArraySum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxSubArraySumOnline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pintia/dsa/MaxSubArraySumOnline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="18" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindMaxSubArray.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pintia/dsa/FindMaxSubArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,6 +129,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>max_sub_array</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -142,6 +154,10 @@
         <option value="$PROJECT_DIR$/pintia/AplusB.py" />
         <option value="$PROJECT_DIR$/pintia/SimpleCalculate.py" />
         <option value="$PROJECT_DIR$/pintia/ShortMsg.py" />
+        <option value="$PROJECT_DIR$/pintia/dsa/MaxSubArraySUm.py" />
+        <option value="$PROJECT_DIR$/pintia/dsa/MaxSubArraySum.py" />
+        <option value="$PROJECT_DIR$/pintia/dsa/MaxSubArraySumOnline.py" />
+        <option value="$PROJECT_DIR$/pintia/dsa/FindMaxSubArray.py" />
       </list>
     </option>
   </component>
@@ -155,9 +171,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-15" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="843" />
+    <option name="height" value="844" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -193,6 +210,12 @@
               <item name="aizuoj" type="b2602c69:ProjectViewProjectNode" />
               <item name="aizuoj" type="462c0819:PsiDirectoryNode" />
               <item name="pintia" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aizuoj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aizuoj" type="462c0819:PsiDirectoryNode" />
+              <item name="pintia" type="462c0819:PsiDirectoryNode" />
               <item name="pythonbasic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -215,6 +238,11 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pintia/pythonbasic" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -227,8 +255,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ShortMsg">
-    <configuration name="AplusB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FindMaxSubArray">
+    <configuration name="FindMaxSubArray" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aizuoj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,18 +264,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pintia" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pintia/dsa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pintia/pythonbasic/AplusB.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pintia/dsa/FindMaxSubArray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PrintManyHelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MaxSubArraySum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="aizuoj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,12 +283,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITP1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pintia/dsa" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ITP1/PrintManyHelloWorld.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pintia/dsa/MaxSubArraySum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="MaxSubArraySumOnline" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="aizuoj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pintia/dsa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pintia/dsa/MaxSubArraySumOnline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,39 +351,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="SwappingTwoNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="aizuoj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ITP1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ITP1/SwappingTwoNumbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.PrintManyHelloWorld" />
-      <item itemvalue="Python.SwappingTwoNumbers" />
-      <item itemvalue="Python.AplusB" />
       <item itemvalue="Python.SimpleCalculate" />
       <item itemvalue="Python.ShortMsg" />
+      <item itemvalue="Python.MaxSubArraySum" />
+      <item itemvalue="Python.MaxSubArraySumOnline" />
+      <item itemvalue="Python.FindMaxSubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.FindMaxSubArray" />
+        <item itemvalue="Python.MaxSubArraySumOnline" />
+        <item itemvalue="Python.MaxSubArraySum" />
         <item itemvalue="Python.ShortMsg" />
         <item itemvalue="Python.SimpleCalculate" />
-        <item itemvalue="Python.AplusB" />
-        <item itemvalue="Python.SwappingTwoNumbers" />
-        <item itemvalue="Python.PrintManyHelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -362,27 +390,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="843" extended-state="0" />
+    <frame x="-15" y="23" width="1440" height="844" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.32947233" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947233" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32904884" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41388175" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32947233" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -426,31 +454,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="left_low" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>left_low</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ALDS/SelectionSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="23" selection-start-line="17" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ITP1/SortingThreeNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ITP1/PrintManyHelloWorld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="24" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITP1/SwappingTwoNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -717,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ALDS/BubbleSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="9" selection-start-line="24" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ALDS/SelectionSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -780,6 +794,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ALDS/BubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="40" lean-forward="true" selection-start-line="24" selection-end-line="25" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pintia/dsa/MaxSubArraySum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pintia/dsa/MaxSubArraySumOnline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pintia/dsa/FindMaxSubArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
